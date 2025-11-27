@@ -1,0 +1,565 @@
+{
+    "chunks": [
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 0.0,
+            "end": 59.0,
+            "text": " Yes, good evening all of you friends. We will start the class in a few seconds.  All right, friends. So now it is 9 PM and we start this class. My first question is can you hear me?  You can see me. You can hear me. You can vote in the poll.  Sandeep, Athar, Rohan, Shivaji, Ankita, Ashish, Anant, Adnan, Srijesh, Sonam, Gaurav, Sawant, Rekha.  3% of people are saying that they cannot see. So press the Ctrl R or Ctrl Shift R on your keyboard.  Use Chrome browser. Disable the addon. Log in to the incognito mode. Hopefully it should work.  See from the mobile app. Make sure the internet speed is correct. Then it should work.  Whatever doubts you have in the class, take note of it. After the class is over, ask the Google Form.  The link is in the chat box. I will make a PDF file and upload it.  Today is 30th April. This month will end today. And UPSC will be open for 47 days."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 59.0,
+            "end": 87.0,
+            "text": " Those who have joined recently and are preparing for 2025, I would like to tell them not to watch this course.  The reason is that 80% of the work is done. 2 weeks of work is left.  I would like to tell those new students that come in June last week.  The next economic course will come. You can watch that. Till then, what will you do?  We have taken the subscription. Do not worry.  The rest of the subjects like geography, quality, history, environment, finish all of them.  Because now you are sitting in front of me. But these are such pillars where you need to have a lot of knowledge.  I mean the money banking, finance, insurance, or the GST, IXI, or the international trade, currency exchange.  When we solve MCQ, all these things come and get solved.  We will see that the agriculture manufacturing sector, NITYA, GDP, all these are over."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 87.0,
+            "end": 105.0,
+            "text": " Inflation is still going on. We will finish it today.  There are some PYQs. But we will see that during the break.  Now the topic is inflation.  We saw the causes, remedies, types, effects in inflation.  How to do the measurement, what is the consumer price index, what is the wholesale price index?  We have to understand all this now.  There are some MCQs. But we will understand that during the break.  First of all, let us try to do the measurement of inflation.  Let us try to measure inflation.  Suppose in 2012, the lifebuy soap was 10 rupees."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 105.0,
+            "end": 122.0,
+            "text": " And in 2019, it became 15 rupees.  So how much inflation or inflation is there?  15 minus 10 divided by 10 times 100.  So 50 percent, 50 percent of things have become expensive.  Is it right to say that does this give us the correct picture?  No.  Because we do not live alone with soap.  We require food, footwear, clothes, vegetables, roti, lentils, rice, we buy a lot of things.  So we cannot say that by checking the price of one thing, that 50 percent is expensive.  You say, okay, let's take a shopping basket."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 122.0,
+            "end": 145.0,
+            "text": " In that, 3-4 things are filled and we will monitor its price.  Soap 10 rupees, onion 50 rupees, footwear 1000 rupees.  So in 2012, to buy this basket, we needed 1060 rupees.  And then we reached 2019, so the soap became expensive, 15 rupees, the onion became expensive, 60 rupees, the footwear became expensive, 1200 rupees.  So to buy this basket again, we need 1275 rupees.  Now I will ask you how much inflation has increased from here to here.  You say, okay, if you subtract the percentage, then this will be 20 percent.  But this will also not show us the correct picture.  Because we are not buying all these things in one set.  We are not buying all these things in the same quantity, in the same frequency, every day, every month, every year."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 145.0,
+            "end": 163.0,
+            "text": " If we buy shoes, it is possible that we will buy it once in 3-5 years.  Onion can be bought every month.  Soap can be bought every month, every 2-3 months.  So that's why if the shoes become more expensive, then we will not say that we are looted and it is very difficult.  No, because every 3-5 years we may require another pair.  So this does not give us the correct picture.  What should we do in everything?  We should assign weight.  Okay.  So now I do this."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 163.0,
+            "end": 183.0,
+            "text": " I assign 10 percent weight to shoes, whatever I have to calculate the inflation.  Onions, yes, we need it to eat something every day.  So I assign 60 percent weight to it.  And this soap, of course, we need to bathe it, but we do not buy it so frequently every day.  So I assign 30 percent weight to it.  So the total answer will be 100 percent.  Now understand this final answer.  Whatever the surveyor is, he will decide in advance that the total weight will be 100, 1000, so that it is convenient to divide it quickly.  So from the beginning, okay, let's keep 100 total weight.  The thing that is more in it, it gets more."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 183.0,
+            "end": 201.0,
+            "text": " 60 is this.  So if it is 100, then okay, I give shoes 10 percent, give onion 60, give soap 30.  Then what was the price in the base year?  So I will write that 10 rupees, 50 rupees, 1000 rupees.  After that, what is the price in the current year, suppose 2019?  So what will we do in that?  We will write a new value, whatever it is, 15 rupees, 60 rupees, 1200 rupees.  Now after this, how does this excel file work, do not spend your mind in it.  You just have to understand its philosophy and principle that okay, this is how they make an index.  Now you find the price ratio."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 201.0,
+            "end": 225.0,
+            "text": " It is like that in 2019, it is 15 rupees and in base year 2012, it is 10 rupees.  So what is the ratio? 1.5.  Similarly, this is 1.2 of onion, 1.2 of shoes, something like that.  Then what you have to do is multiply this ratio with the weight.  So for example, in the case of soap, we assigned weight 30 percent and the ratio was 1.5.  So you will multiply it by 45.  Similarly, if you play all this, then the final number you get, the ratio into weight of every commodity,  45 plus 72 plus 12, then you get the final answer, 129.  This 129 is the price index number.  And the whole system we made, we call it the last price formula."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 225.0,
+            "end": 244.0,
+            "text": " What did we do in that? We took a base year, 2012, assigned weight to everything.  And then we took out all these ratios and numbers, which we called the index number.  Now see the fun.  Looking at this index number, you can immediately say that it is 129.  And we will think that it was 100 in the base year, in 2012.  So inflation in 2019, how much is it compared to 2012?  So the present number is 129, the base year is 100, so this is 29 percent.  So 29 percent inflation is there.  What is the base year now?  Although this is again not showing us the correct picture."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 244.0,
+            "end": 263.0,
+            "text": " Because we see year on year, how much was it compared to last year?  So that is also easy to find out.  Similarly, suppose in 2012, we will assume that whatever basket it was,  the number to buy it was 100.  Then on a monthly basis, every month you will go and ask the shopkeeper what is the price?  Will you update the table?  So at that time 114 job came, 130, 137, 140, something will keep going.  So we do this.  And this formula will come from something.  Sigma R into W, R is equal to this."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 263.0,
+            "end": 284.0,
+            "text": " But this formula is not useful for us.  PLOS office is enough for us.  We assign some weight to these different products.  Now you understand, compared to 2012, in 2019, suppose the number is 140,  it means that 40 percent inflation has increased compared to base year 2012.  But we want to know what is going on year on year.  So we have to do this, we measure inflation on an annual basis.  This means if this number is 140 in 2019 December,  and I want to know how much inflation increased compared to last year,  then I will go to last year in 2018 and its same month December,"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 284.0,
+            "end": 305.0,
+            "text": " then what was the number 137?  So I will find out that in front of 137, 140 is how big?  How much percentage?  So this will come as 2.18 percent.  So CPI inflation, consumer price index, which is taken out by the NSO,  in 2019, it is taken out that 140 minus 137 divided by 137,  means we want to know the comparison of last year.  If it is in times and date percentage, then we say this is 2.18 percent.  That means in 2019 December, the rate of inflation is 2.18 percent higher than last year.  The inflation has increased by 2.18 percent in the current year,"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 305.0,
+            "end": 319.0,
+            "text": " current month compared to last year same month.  This is what it says.  And what will we call this number?  Headline inflation.  This 2.18 percent.  Because what will be written in the headline of the newspaper?  This will be written.  Now a question has been asked in this CDS.  I will give you a full minute, a head start.  You think what will be its job, then I will start its voting line."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 328.0,
+            "end": 380.0,
+            "text": " 20 more seconds.  10 more seconds.  All right friends, so the time starts in 3, 2, 1, start.  Amit, Sumit, Jyoti, Soumya, Priya, Niv, Dinesh, Ayat, Jeevi, Shah, Subhendra, Snehal, Balwant, Harika, Varsha, Manisha, Vikul, Vikas, Deepak, Jaswati, Deepak, Draupadi, Hemlata, Badal, Shiva, Mahesh, Pranav, Shiva, Ayush, Jayan, Sujit, Dipanshu, Nikhil, Ashutosh, Sarika, Remy, Anirudh, Navneet, Pruchy, Rahul, Ninofer, Khusbu, Sadhvi, Priti, Gautam, Hemant, Abhishek, Kishore, and others.  The first statement is correct.  What do we do in price index?  Some things increase in basket and every month, every year, what is happening?  We are seeing that.  Second, inflation is calculated.  I have told you that we are not counting it in front of year 2012."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 380.0,
+            "end": 400.0,
+            "text": " We are counting it year on year.  If we have to calculate inflation of 2019 December, then we have to calculate it in front of last year 2018 December.  Now think about it.  What is he saying?  Index was 100 in year 1, 110 in year 2.  So, it increased from here to here.  100 to 110 is 10%.  Then he says that in year 2, it increased to 121 in year 3.  Now, if we have to calculate inflation growth or percentage of year 3, then we have to calculate it from here to here.  You can't say that year 1 is 121% in front of 100."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 400.0,
+            "end": 413.0,
+            "text": " Because it is year on year.  Year on year.  So, in front of year 2, year 3 is how much?  Minus 110 divided by 110 times 100.  Then what will it be?  Take out the answer.  It will be 10%.  It won't be 21%.  So, the second statement is wrong.  Because he is saying that in year 2, it will not be 20%."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 413.0,
+            "end": 428.0,
+            "text": " So, second is wrong, first is correct.  So, the answer is A1 only.  Why is this a crazy question?  Because the second question checks your math skill.  You should know how to calculate the percentage.  How much percentage is there in front of 110?  So, CSAT or Maths knowledge is being asked in GS.  This is CDS.  It happens in IAS also.  But it is opposite."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 428.0,
+            "end": 443.0,
+            "text": " There is a question that data interpretation is asked in CSAT.  But you should have the understanding of Raporate and CRR.  Then only you can do data interpretation in paper 2.  Don't compartmentalize it.  It can trouble you anywhere.  Anyway, we were talking about the last 5 years.  He was a German man.  He made a formula like this.  Price in the current year divided by price in the base year times 100.  You take out the index."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 443.0,
+            "end": 456.0,
+            "text": " Then you take out the number of year on year.  W means weight.  You don't have to remember this formula.  You have to understand what was his philosophy.  What can we get out of this last 5 year formula?  What is the consumer price index of inflation?  We will understand that after a while.  What is the wholesale price index of inflation?  We will understand that after a while.  Because these two are things to count inflation."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 456.0,
+            "end": 470.0,
+            "text": " Here, the base year is different.  Remember.  CPI is 2012.  WPA is 2011.  People who calculate these are different.  CPI is calculated by NSO which is under the Ministry of Statistics and Program Implementation.  WPA is done by a different officer.  He is the economic advisor to DPIIT.  DPIIT is the department under the Commerce Ministry.  We have seen what it was in pillar 3."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 471.0,
+            "end": 482.0,
+            "text": " So, yes.  Last 5 years can be used for calculating inflation.  Correct.  Apart from this, it can also be used to count production.  For example, the index of industrial production.  We will understand that after 2 breaks.  We calculate production with the help of this.  Its base year is 2012.  Remember.  It is made under the NSO."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 482.0,
+            "end": 494.0,
+            "text": " Lastly, GDP.  GDP is not the last 5 years formula.  Remember the formula of GDP.  CIGXM, WIPER, GBA method.  We did not assign weight anywhere.  That world is different.  Don't get confused in GDP.  It is different.  It is already compiled last week.  Here we are talking about other things."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 494.0,
+            "end": 508.0,
+            "text": " Where last 5 years is used.  This is one thing.  Now, the last 5 years, I told you.  It was the German economist.  We calculate CPI, WPI, index of industrial production.  Apart from this, there was another German economist.  His name was Pasche.  Suppose we want to know.  In 2023, the price of a samosa.  Suppose, Rs. 45."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 508.0,
+            "end": 521.0,
+            "text": " So, in base year 2012, how much was that samosa worth?  I don't know.  I want to know.  So, the reverse engineering that has to be done.  If something is being priced today.  We have to see what was its price in the past.  We have to know that.  What today's basket of commodity would have cost and base year price.  Lastly, there is Fisher index.  Fisher was an American economist."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 521.0,
+            "end": 532.0,
+            "text": " He said, look, last pile of L.  Multiply with P of Pasche.  And find its square root.  So, this is a geometric mean.  We understand that there are different types of averages.  A plus B divided by 2.  So, this is the arithmetic mean.  But if I say, find the square root of A into B.  So, this is the geometric mean.  See that in C-chat."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 532.0,
+            "end": 547.0,
+            "text": " So, what does Fisher index do?  It finds the geometric mean of both last pile and Pasche.  And it says that we can get more accurate numbers from this.  This last pile is for IAS.  The two below, Pasche and Fisher, are not for IAS.  But some state service people enjoy asking this.  So, we understood.  And this is the base year case.  We made an index.  Month by month, how the year on year is done."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 547.0,
+            "end": 560.0,
+            "text": " We saw that.  We saw that in MCQ.  Now, there are many indicators of inflation or maingrain.  One is consumer price index, CPI.  There are three types of this.  Rural, urban and global.  We find the combined.  Now, in consumer price index,  vegetable, bread, lentil, rice, table, chair, medicine, everything is counted.  You know that I just want to know about food."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 560.0,
+            "end": 572.0,
+            "text": " So, there is a consumer food price index.  These two things are found by NSO.  Base year is 2012.  Then consumer price index for industrial worker.  That is IW.  Then wage rate index, WRI.  Then CPI for rural laborers.  CPI for agricultural laborers.  All these are found.  There is a labor bureau under labor ministry."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 572.0,
+            "end": 582.0,
+            "text": " It is in Simla.  They find their base year.  And lastly, wholesale price index.  I told you that economic advisor to DPIT department.  Under commerce ministry,  their base year is different.  And if you ask all these,  you have to go back.  Especially in IAS and non-IAS.  See in 2015."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 582.0,
+            "end": 592.0,
+            "text": " Consumer price index number for industrial worker,  IW, who finds it?  Not IW, not economic affairs department.  But labor bureau finds it.  You saw here.  Consumer price index for industrial worker,  who finds it?  Labor bureau finds it.  Now, some people will raise a flag.  Why don't they find so many indicators?"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 592.0,
+            "end": 608.0,
+            "text": " And I completely agree with you.  We saw it in pillar 1 and 2.  CPI for agricultural laborers.  Government finds it.  Because we will see in pillar 6.  Mahatma Gandhi National Rural Employment Guarantee Act.  In that, villagers have to give their work.  So, daily they have to give 200 rupees.  How much to give?  And if inflation is increasing,"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 608.0,
+            "end": 618.0,
+            "text": " how much salary to give?  How will they monitor all that?  For that, they see this index.  CPI for agricultural laborers.  Similarly, CPI for industrial workers.  Wage rate index.  Why is it decided  what should be the minimum wage in factory?  If inflation is increasing,  then we have to increase their salary."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 618.0,
+            "end": 630.0,
+            "text": " We have to give dearness allowance.  How much should it be?  We see all this.  Rest all the indicators like  wholesale price index, etc.  So, therefore, we have so many indices.  We understood dearness allowance  in pillar 2 also.  That except salary,  extra salary should be given to laborers."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 630.0,
+            "end": 640.0,
+            "text": " Suppose, whatever salary you have,  Rs. 1 lakh for IAS officer.  But if inflation is increasing,  then give extra 5%.  So that they don't do corruption  and can maintain their lifestyle  which is standard of living  as compared to inflation.  Now, see the headline here.  Government hikes the dearness allowance"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 640.0,
+            "end": 650.0,
+            "text": " by 5%.  Means, government is giving  little extra money  or little extra salary  to protect the employees.  Which government employees?  Infosys or TCS employees  will not get dearness allowance  from government.  They get it."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 650.0,
+            "end": 660.0,
+            "text": " Now, the question is  how did this magical figure come 5%?  Of course, they must be seeing  some numbers.  Like pay for industrial worker.  And they will put their  mathematical formula in it.  So, we call that process  as indexation or cost of living index.  With the help of which,"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 660.0,
+            "end": 671.0,
+            "text": " boss or employer  decides their minimum wages,  dearness allowance, etc.  Here also, Sirius asked a question.  What is the use of indexation method?  No inflation control.  No GDP calculation.  No savings ratify.  Fixing the wage compensation.  And this is really tough."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 671.0,
+            "end": 681.0,
+            "text": " Because not everything is given in the book.  He asked this question  and we got the answer  by searching on Google.  But the good thing is  he didn't ask such questions later.  This is not a trend.  But I remember,  if he asks anything,  then he should write it"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 681.0,
+            "end": 691.0,
+            "text": " and ask a new professor.  He must have read it in a book.  He should ask again.  It helps.  You should keep that habit.  And you should try to get  selection in one attempt.  So that you don't have to  sit for 5 years.  So, we understood."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 691.0,
+            "end": 701.0,
+            "text": " We did the measurement.  We have to understand CPI.  See, I told you that  we have to take different commodities  in a basket.  Soap, onion, footwear.  And then what is the price  in base year and current year.  We have to play all these.  So, in consumer price index,"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 701.0,
+            "end": 711.0,
+            "text": " there are not only 3 things.  There are many things.  Which are those things?  There should be some idea.  So, index, sub topic inflation,  sub topic consumer price index  of all India level.  Now, he will monitor  the price of many things  in the basket."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 711.0,
+            "end": 721.0,
+            "text": " And he will assign weight  to all of them.  Total weight is 100.  Then how will he distribute  internally?  The thing we buy more frequently  will be assigned more weight.  So, who has the most weight?  What is the most weight  assigned?"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 721.0,
+            "end": 731.0,
+            "text": " Roti, coke, food.  So, remember, in CPI index,  who has the most weight  assigned?  Food and beverages, 45%.  After that, on the other  number, services.  Like transport, communication,  education, recreation.  Means, what ticket of cinema"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 731.0,
+            "end": 741.0,
+            "text": " hall, all of them have  20 lakh weight assigned.  Then housing has 10 lakh  weight assigned.  Now, what I am telling you,  what is this?  In rural CPI, housing  is assigned 0% weight.  Why?  Maybe, they will ask"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 741.0,
+            "end": 751.0,
+            "text": " questions.  They will keep their  houses closed in the village.  So, what?  What will happen to the  rent?  What will happen to  the people?  I am not saying this.  Their thinking can be"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 751.0,
+            "end": 761.0,
+            "text": " like this.  That's why they have  assigned 0% weight.  Okay, so housing has  assigned 0% weight.  When they calculate  the CPI of rural area  separately.  Fuel and light, they  will give it to clothing"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 761.0,
+            "end": 771.0,
+            "text": " and footwear.  Personal care, like  soap, etc.  Rest, household items,  TV, fridge, etc.  So, what is the  directive of CPI?  That they have to  close all these.  So, these are all things."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 771.0,
+            "end": 781.0,
+            "text": " And remember,  they ask the weight  sometimes.  In the increasing  and decreasing order  of quantity.  Consumer price index,  this red line, which  I called headline  inflation, you see."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 781.0,
+            "end": 791.0,
+            "text": " You have to control  it in the range of  2% to 6%.  Because RBI has  been told this.  We have seen it in  pillar 1 and 2.  Then this red line  keeps going up and  down."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 791.0,
+            "end": 801.0,
+            "text": " Or you see, from  February 2022, it  goes up slowly.  Why?  Because we had  measured food here.  If we had made  an index by looking  at this much, we  would have got"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 801.0,
+            "end": 811.0,
+            "text": " the food index.  So, this blue line  is going up.  And why has this  food gone up?  Remember, a lot of  rice and wheat in  India has been  exported by our  traders."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 811.0,
+            "end": 821.0,
+            "text": " Why?  Because the  Ukrainians were  not able to do it.  So, we had to  earn money.  Egypt, Turkey,  sell our goods.  We have understood  all this in"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 821.0,
+            "end": 831.0,
+            "text": " pillar 4A.  So, that is all  about understanding  the headline inflation.  All these things,  food, beverage,  service, housing,  whatever we have  calculated, we  are calling it"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 831.0,
+            "end": 841.0,
+            "text": " headline inflation.  These are the  things that we  say, war, then  Pathan, then whatever  movie has come.  So, what is all  this?  These are all  action movies."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 841.0,
+            "end": 851.0,
+            "text": " This is a spy  thriller movie.  So, this is  CPI, this is WPI.  So, that is there.  But what  have you calculated  overall?  So, we are  calculating headline"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 851.0,
+            "end": 861.0,
+            "text": " inflation.  So, food, fuel,  other goods,  services, then  headline inflation.  So, from that,  from headline inflation,  you subtract  food and fuel,  so what we get is"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 861.0,
+            "end": 871.0,
+            "text": " core inflation.  The CPI component  that we have  understood, food  and beverages,  so that is  45.  So, we have  calculated  all these things"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 871.0,
+            "end": 881.0,
+            "text": " in pillar 4A.  So, we have  calculated  all these things  in pillar 4A.  So, we have  calculated  all these things  in pillar 4A.  So, we have"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 881.0,
+            "end": 891.0,
+            "text": " calculated  food and beverages  in pillar 4A.  So, we have  assigned that 45%.  Then, services,  we have assigned  20% weight,  in which we  monitor transport,"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 891.0,
+            "end": 901.0,
+            "text": " communication,  health, education,  all these services.  Now, the funny  thing is that  in transport,  we calculate  the petrol and diesel  value of NSO.  When you know"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 901.0,
+            "end": 911.0,
+            "text": " fuel and light,  there is a separate  column, but in that  they count kerosene  and electricity.  There, they don't  count petrol and diesel.  And we assigned  6% weight to it.  So, what will"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 911.0,
+            "end": 921.0,
+            "text": " the NSO do?  So, the economic  survey said that  yes, okay,  now, there are  dengue, corona,  plague, AIDS,  but I don't  want to find  the solution for"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 921.0,
+            "end": 931.0,
+            "text": " them.  I want to  find out how  to fix this formula.  So, for that,  I will derive  a separate  formula.  So, the NSO  will do this."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 931.0,
+            "end": 941.0,
+            "text": " And the economic  survey will say  that I have  made a new  line of yellow  and I have  adjusted  all these things.  And I will  ask UPSA."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 941.0,
+            "end": 951.0,
+            "text": " Because,  if you ask UPSA  about a theory or  concept, it is  either in the  book or  it is established  that the  world believes  it."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 951.0,
+            "end": 961.0,
+            "text": " So,  the consumer  price index  can be derived  separately from  the rural area  and the urban  area.  Now,  you see,"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 961.0,
+            "end": 971.0,
+            "text": " the red line  above is the  city area  consumer price  index.  The blue  line below is  the rural  area  consumer price"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 971.0,
+            "end": 981.0,
+            "text": " index.  In the rural  area, it is  0%.  The NSO  officers think  that the  housing price  must be 0.  Similarly,"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 981.0,
+            "end": 991.0,
+            "text": " the fuel and  light component  is the  clothing  footwear  component.  It is  assigned separately  in the city  area and"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 991.0,
+            "end": 1001.0,
+            "text": " rural area.  This is why  these lines  do not  normally  match.  The reason  is that  the rural  area has"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 1001.0,
+            "end": 1011.0,
+            "text": " 8%  inflation.  The red  line is  6%.  In 2022,  the inflation  in the rural  area became  higher than"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 1011.0,
+            "end": 1021.0,
+            "text": " the urban  area.  There are  two or  three reasons  for this.  The supply  chain  disrupted due  to the"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 1021.0,
+            "end": 1031.0,
+            "text": " problems in  Assam and  Manipur.  So,  the fuel  and clothing  supply  chain  disrupted.  The"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 1031.0,
+            "end": 1041.0,
+            "text": " RBI is  targeting the  core inflation.  Let me  tell you  a theory.  Think of  a 5-minute  PYQ.  The egg"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 1041.0,
+            "end": 1051.0,
+            "text": " is the  inflation.  The  hen is  born.  If the  inflation  increases,  the export  will decrease."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 1051.0,
+            "end": 1061.0,
+            "text": " If the  export decreases,  the dollar  will become  strong and  the hen  will become  weak.  This is  a theory."
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 1061.0,
+            "end": 1071.0,
+            "text": " Some  people say that  the hen  is born  and then  the egg  is born.  If the  dollar  is weak,"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 1071.0,
+            "end": 1081.0,
+            "text": " the export  will be  expensive.  So,  the currency  exchange  will be  weak.  I'll  give you"
+        },
+        {
+            "number": "3 ",
+            "title": " Intro, Mining, Energy].mp4",
+            "start": 1081.0,
+            "end": 1088.0,
+            "text": " 30 seconds  and then  I'll  answer your  question.  Thank  you."
+        }
+    ],
+    "text": " Yes, good evening all of you friends. We will start the class in a few seconds. All right, friends. So now it is 9 PM and we start this class. My first question is can you hear me? You can see me. You can hear me. You can vote in the poll. Sandeep, Athar, Rohan, Shivaji, Ankita, Ashish, Anant, Adnan, Srijesh, Sonam, Gaurav, Sawant, Rekha. 3% of people are saying that they cannot see. So press the Ctrl R or Ctrl Shift R on your keyboard. Use Chrome browser. Disable the addon. Log in to the incognito mode. Hopefully it should work. See from the mobile app. Make sure the internet speed is correct. Then it should work. Whatever doubts you have in the class, take note of it. After the class is over, ask the Google Form. The link is in the chat box. I will make a PDF file and upload it. Today is 30th April. This month will end today. And UPSC will be open for 47 days. Those who have joined recently and are preparing for 2025, I would like to tell them not to watch this course. The reason is that 80% of the work is done. 2 weeks of work is left. I would like to tell those new students that come in June last week. The next economic course will come. You can watch that. Till then, what will you do? We have taken the subscription. Do not worry. The rest of the subjects like geography, quality, history, environment, finish all of them. Because now you are sitting in front of me. But these are such pillars where you need to have a lot of knowledge. I mean the money banking, finance, insurance, or the GST, IXI, or the international trade, currency exchange. When we solve MCQ, all these things come and get solved. We will see that the agriculture manufacturing sector, NITYA, GDP, all these are over. Inflation is still going on. We will finish it today. There are some PYQs. But we will see that during the break. Now the topic is inflation. We saw the causes, remedies, types, effects in inflation. How to do the measurement, what is the consumer price index, what is the wholesale price index? We have to understand all this now. There are some MCQs. But we will understand that during the break. First of all, let us try to do the measurement of inflation. Let us try to measure inflation. Suppose in 2012, the lifebuy soap was 10 rupees. And in 2019, it became 15 rupees. So how much inflation or inflation is there? 15 minus 10 divided by 10 times 100. So 50 percent, 50 percent of things have become expensive. Is it right to say that does this give us the correct picture? No. Because we do not live alone with soap. We require food, footwear, clothes, vegetables, roti, lentils, rice, we buy a lot of things. So we cannot say that by checking the price of one thing, that 50 percent is expensive. You say, okay, let's take a shopping basket. In that, 3-4 things are filled and we will monitor its price. Soap 10 rupees, onion 50 rupees, footwear 1000 rupees. So in 2012, to buy this basket, we needed 1060 rupees. And then we reached 2019, so the soap became expensive, 15 rupees, the onion became expensive, 60 rupees, the footwear became expensive, 1200 rupees. So to buy this basket again, we need 1275 rupees. Now I will ask you how much inflation has increased from here to here. You say, okay, if you subtract the percentage, then this will be 20 percent. But this will also not show us the correct picture. Because we are not buying all these things in one set. We are not buying all these things in the same quantity, in the same frequency, every day, every month, every year. If we buy shoes, it is possible that we will buy it once in 3-5 years. Onion can be bought every month. Soap can be bought every month, every 2-3 months. So that's why if the shoes become more expensive, then we will not say that we are looted and it is very difficult. No, because every 3-5 years we may require another pair. So this does not give us the correct picture. What should we do in everything? We should assign weight. Okay. So now I do this. I assign 10 percent weight to shoes, whatever I have to calculate the inflation. Onions, yes, we need it to eat something every day. So I assign 60 percent weight to it. And this soap, of course, we need to bathe it, but we do not buy it so frequently every day. So I assign 30 percent weight to it. So the total answer will be 100 percent. Now understand this final answer. Whatever the surveyor is, he will decide in advance that the total weight will be 100, 1000, so that it is convenient to divide it quickly. So from the beginning, okay, let's keep 100 total weight. The thing that is more in it, it gets more. 60 is this. So if it is 100, then okay, I give shoes 10 percent, give onion 60, give soap 30. Then what was the price in the base year? So I will write that 10 rupees, 50 rupees, 1000 rupees. After that, what is the price in the current year, suppose 2019? So what will we do in that? We will write a new value, whatever it is, 15 rupees, 60 rupees, 1200 rupees. Now after this, how does this excel file work, do not spend your mind in it. You just have to understand its philosophy and principle that okay, this is how they make an index. Now you find the price ratio. It is like that in 2019, it is 15 rupees and in base year 2012, it is 10 rupees. So what is the ratio? 1.5. Similarly, this is 1.2 of onion, 1.2 of shoes, something like that. Then what you have to do is multiply this ratio with the weight. So for example, in the case of soap, we assigned weight 30 percent and the ratio was 1.5. So you will multiply it by 45. Similarly, if you play all this, then the final number you get, the ratio into weight of every commodity, 45 plus 72 plus 12, then you get the final answer, 129. This 129 is the price index number. And the whole system we made, we call it the last price formula. What did we do in that? We took a base year, 2012, assigned weight to everything. And then we took out all these ratios and numbers, which we called the index number. Now see the fun. Looking at this index number, you can immediately say that it is 129. And we will think that it was 100 in the base year, in 2012. So inflation in 2019, how much is it compared to 2012? So the present number is 129, the base year is 100, so this is 29 percent. So 29 percent inflation is there. What is the base year now? Although this is again not showing us the correct picture. Because we see year on year, how much was it compared to last year? So that is also easy to find out. Similarly, suppose in 2012, we will assume that whatever basket it was, the number to buy it was 100. Then on a monthly basis, every month you will go and ask the shopkeeper what is the price? Will you update the table? So at that time 114 job came, 130, 137, 140, something will keep going. So we do this. And this formula will come from something. Sigma R into W, R is equal to this. But this formula is not useful for us. PLOS office is enough for us. We assign some weight to these different products. Now you understand, compared to 2012, in 2019, suppose the number is 140, it means that 40 percent inflation has increased compared to base year 2012. But we want to know what is going on year on year. So we have to do this, we measure inflation on an annual basis. This means if this number is 140 in 2019 December, and I want to know how much inflation increased compared to last year, then I will go to last year in 2018 and its same month December, then what was the number 137? So I will find out that in front of 137, 140 is how big? How much percentage? So this will come as 2.18 percent. So CPI inflation, consumer price index, which is taken out by the NSO, in 2019, it is taken out that 140 minus 137 divided by 137, means we want to know the comparison of last year. If it is in times and date percentage, then we say this is 2.18 percent. That means in 2019 December, the rate of inflation is 2.18 percent higher than last year. The inflation has increased by 2.18 percent in the current year, current month compared to last year same month. This is what it says. And what will we call this number? Headline inflation. This 2.18 percent. Because what will be written in the headline of the newspaper? This will be written. Now a question has been asked in this CDS. I will give you a full minute, a head start. You think what will be its job, then I will start its voting line. 20 more seconds. 10 more seconds. All right friends, so the time starts in 3, 2, 1, start. Amit, Sumit, Jyoti, Soumya, Priya, Niv, Dinesh, Ayat, Jeevi, Shah, Subhendra, Snehal, Balwant, Harika, Varsha, Manisha, Vikul, Vikas, Deepak, Jaswati, Deepak, Draupadi, Hemlata, Badal, Shiva, Mahesh, Pranav, Shiva, Ayush, Jayan, Sujit, Dipanshu, Nikhil, Ashutosh, Sarika, Remy, Anirudh, Navneet, Pruchy, Rahul, Ninofer, Khusbu, Sadhvi, Priti, Gautam, Hemant, Abhishek, Kishore, and others. The first statement is correct. What do we do in price index? Some things increase in basket and every month, every year, what is happening? We are seeing that. Second, inflation is calculated. I have told you that we are not counting it in front of year 2012. We are counting it year on year. If we have to calculate inflation of 2019 December, then we have to calculate it in front of last year 2018 December. Now think about it. What is he saying? Index was 100 in year 1, 110 in year 2. So, it increased from here to here. 100 to 110 is 10%. Then he says that in year 2, it increased to 121 in year 3. Now, if we have to calculate inflation growth or percentage of year 3, then we have to calculate it from here to here. You can't say that year 1 is 121% in front of 100. Because it is year on year. Year on year. So, in front of year 2, year 3 is how much? Minus 110 divided by 110 times 100. Then what will it be? Take out the answer. It will be 10%. It won't be 21%. So, the second statement is wrong. Because he is saying that in year 2, it will not be 20%. So, second is wrong, first is correct. So, the answer is A1 only. Why is this a crazy question? Because the second question checks your math skill. You should know how to calculate the percentage. How much percentage is there in front of 110? So, CSAT or Maths knowledge is being asked in GS. This is CDS. It happens in IAS also. But it is opposite. There is a question that data interpretation is asked in CSAT. But you should have the understanding of Raporate and CRR. Then only you can do data interpretation in paper 2. Don't compartmentalize it. It can trouble you anywhere. Anyway, we were talking about the last 5 years. He was a German man. He made a formula like this. Price in the current year divided by price in the base year times 100. You take out the index. Then you take out the number of year on year. W means weight. You don't have to remember this formula. You have to understand what was his philosophy. What can we get out of this last 5 year formula? What is the consumer price index of inflation? We will understand that after a while. What is the wholesale price index of inflation? We will understand that after a while. Because these two are things to count inflation. Here, the base year is different. Remember. CPI is 2012. WPA is 2011. People who calculate these are different. CPI is calculated by NSO which is under the Ministry of Statistics and Program Implementation. WPA is done by a different officer. He is the economic advisor to DPIIT. DPIIT is the department under the Commerce Ministry. We have seen what it was in pillar 3. So, yes. Last 5 years can be used for calculating inflation. Correct. Apart from this, it can also be used to count production. For example, the index of industrial production. We will understand that after 2 breaks. We calculate production with the help of this. Its base year is 2012. Remember. It is made under the NSO. Lastly, GDP. GDP is not the last 5 years formula. Remember the formula of GDP. CIGXM, WIPER, GBA method. We did not assign weight anywhere. That world is different. Don't get confused in GDP. It is different. It is already compiled last week. Here we are talking about other things. Where last 5 years is used. This is one thing. Now, the last 5 years, I told you. It was the German economist. We calculate CPI, WPI, index of industrial production. Apart from this, there was another German economist. His name was Pasche. Suppose we want to know. In 2023, the price of a samosa. Suppose, Rs. 45. So, in base year 2012, how much was that samosa worth? I don't know. I want to know. So, the reverse engineering that has to be done. If something is being priced today. We have to see what was its price in the past. We have to know that. What today's basket of commodity would have cost and base year price. Lastly, there is Fisher index. Fisher was an American economist. He said, look, last pile of L. Multiply with P of Pasche. And find its square root. So, this is a geometric mean. We understand that there are different types of averages. A plus B divided by 2. So, this is the arithmetic mean. But if I say, find the square root of A into B. So, this is the geometric mean. See that in C-chat. So, what does Fisher index do? It finds the geometric mean of both last pile and Pasche. And it says that we can get more accurate numbers from this. This last pile is for IAS. The two below, Pasche and Fisher, are not for IAS. But some state service people enjoy asking this. So, we understood. And this is the base year case. We made an index. Month by month, how the year on year is done. We saw that. We saw that in MCQ. Now, there are many indicators of inflation or maingrain. One is consumer price index, CPI. There are three types of this. Rural, urban and global. We find the combined. Now, in consumer price index, vegetable, bread, lentil, rice, table, chair, medicine, everything is counted. You know that I just want to know about food. So, there is a consumer food price index. These two things are found by NSO. Base year is 2012. Then consumer price index for industrial worker. That is IW. Then wage rate index, WRI. Then CPI for rural laborers. CPI for agricultural laborers. All these are found. There is a labor bureau under labor ministry. It is in Simla. They find their base year. And lastly, wholesale price index. I told you that economic advisor to DPIT department. Under commerce ministry, their base year is different. And if you ask all these, you have to go back. Especially in IAS and non-IAS. See in 2015. Consumer price index number for industrial worker, IW, who finds it? Not IW, not economic affairs department. But labor bureau finds it. You saw here. Consumer price index for industrial worker, who finds it? Labor bureau finds it. Now, some people will raise a flag. Why don't they find so many indicators? And I completely agree with you. We saw it in pillar 1 and 2. CPI for agricultural laborers. Government finds it. Because we will see in pillar 6. Mahatma Gandhi National Rural Employment Guarantee Act. In that, villagers have to give their work. So, daily they have to give 200 rupees. How much to give? And if inflation is increasing, how much salary to give? How will they monitor all that? For that, they see this index. CPI for agricultural laborers. Similarly, CPI for industrial workers. Wage rate index. Why is it decided what should be the minimum wage in factory? If inflation is increasing, then we have to increase their salary. We have to give dearness allowance. How much should it be? We see all this. Rest all the indicators like wholesale price index, etc. So, therefore, we have so many indices. We understood dearness allowance in pillar 2 also. That except salary, extra salary should be given to laborers. Suppose, whatever salary you have, Rs. 1 lakh for IAS officer. But if inflation is increasing, then give extra 5%. So that they don't do corruption and can maintain their lifestyle which is standard of living as compared to inflation. Now, see the headline here. Government hikes the dearness allowance by 5%. Means, government is giving little extra money or little extra salary to protect the employees. Which government employees? Infosys or TCS employees will not get dearness allowance from government. They get it. Now, the question is how did this magical figure come 5%? Of course, they must be seeing some numbers. Like pay for industrial worker. And they will put their mathematical formula in it. So, we call that process as indexation or cost of living index. With the help of which, boss or employer decides their minimum wages, dearness allowance, etc. Here also, Sirius asked a question. What is the use of indexation method? No inflation control. No GDP calculation. No savings ratify. Fixing the wage compensation. And this is really tough. Because not everything is given in the book. He asked this question and we got the answer by searching on Google. But the good thing is he didn't ask such questions later. This is not a trend. But I remember, if he asks anything, then he should write it and ask a new professor. He must have read it in a book. He should ask again. It helps. You should keep that habit. And you should try to get selection in one attempt. So that you don't have to sit for 5 years. So, we understood. We did the measurement. We have to understand CPI. See, I told you that we have to take different commodities in a basket. Soap, onion, footwear. And then what is the price in base year and current year. We have to play all these. So, in consumer price index, there are not only 3 things. There are many things. Which are those things? There should be some idea. So, index, sub topic inflation, sub topic consumer price index of all India level. Now, he will monitor the price of many things in the basket. And he will assign weight to all of them. Total weight is 100. Then how will he distribute internally? The thing we buy more frequently will be assigned more weight. So, who has the most weight? What is the most weight assigned? Roti, coke, food. So, remember, in CPI index, who has the most weight assigned? Food and beverages, 45%. After that, on the other number, services. Like transport, communication, education, recreation. Means, what ticket of cinema hall, all of them have 20 lakh weight assigned. Then housing has 10 lakh weight assigned. Now, what I am telling you, what is this? In rural CPI, housing is assigned 0% weight. Why? Maybe, they will ask questions. They will keep their houses closed in the village. So, what? What will happen to the rent? What will happen to the people? I am not saying this. Their thinking can be like this. That's why they have assigned 0% weight. Okay, so housing has assigned 0% weight. When they calculate the CPI of rural area separately. Fuel and light, they will give it to clothing and footwear. Personal care, like soap, etc. Rest, household items, TV, fridge, etc. So, what is the directive of CPI? That they have to close all these. So, these are all things. And remember, they ask the weight sometimes. In the increasing and decreasing order of quantity. Consumer price index, this red line, which I called headline inflation, you see. You have to control it in the range of 2% to 6%. Because RBI has been told this. We have seen it in pillar 1 and 2. Then this red line keeps going up and down. Or you see, from February 2022, it goes up slowly. Why? Because we had measured food here. If we had made an index by looking at this much, we would have got the food index. So, this blue line is going up. And why has this food gone up? Remember, a lot of rice and wheat in India has been exported by our traders. Why? Because the Ukrainians were not able to do it. So, we had to earn money. Egypt, Turkey, sell our goods. We have understood all this in pillar 4A. So, that is all about understanding the headline inflation. All these things, food, beverage, service, housing, whatever we have calculated, we are calling it headline inflation. These are the things that we say, war, then Pathan, then whatever movie has come. So, what is all this? These are all action movies. This is a spy thriller movie. So, this is CPI, this is WPI. So, that is there. But what have you calculated overall? So, we are calculating headline inflation. So, food, fuel, other goods, services, then headline inflation. So, from that, from headline inflation, you subtract food and fuel, so what we get is core inflation. The CPI component that we have understood, food and beverages, so that is 45. So, we have calculated all these things in pillar 4A. So, we have calculated all these things in pillar 4A. So, we have calculated all these things in pillar 4A. So, we have calculated food and beverages in pillar 4A. So, we have assigned that 45%. Then, services, we have assigned 20% weight, in which we monitor transport, communication, health, education, all these services. Now, the funny thing is that in transport, we calculate the petrol and diesel value of NSO. When you know fuel and light, there is a separate column, but in that they count kerosene and electricity. There, they don't count petrol and diesel. And we assigned 6% weight to it. So, what will the NSO do? So, the economic survey said that yes, okay, now, there are dengue, corona, plague, AIDS, but I don't want to find the solution for them. I want to find out how to fix this formula. So, for that, I will derive a separate formula. So, the NSO will do this. And the economic survey will say that I have made a new line of yellow and I have adjusted all these things. And I will ask UPSA. Because, if you ask UPSA about a theory or concept, it is either in the book or it is established that the world believes it. So, the consumer price index can be derived separately from the rural area and the urban area. Now, you see, the red line above is the city area consumer price index. The blue line below is the rural area consumer price index. In the rural area, it is 0%. The NSO officers think that the housing price must be 0. Similarly, the fuel and light component is the clothing footwear component. It is assigned separately in the city area and rural area. This is why these lines do not normally match. The reason is that the rural area has 8% inflation. The red line is 6%. In 2022, the inflation in the rural area became higher than the urban area. There are two or three reasons for this. The supply chain disrupted due to the problems in Assam and Manipur. So, the fuel and clothing supply chain disrupted. The RBI is targeting the core inflation. Let me tell you a theory. Think of a 5-minute PYQ. The egg is the inflation. The hen is born. If the inflation increases, the export will decrease. If the export decreases, the dollar will become strong and the hen will become weak. This is a theory. Some people say that the hen is born and then the egg is born. If the dollar is weak, the export will be expensive. So, the currency exchange will be weak. I'll give you 30 seconds and then I'll answer your question. Thank you."
+}
