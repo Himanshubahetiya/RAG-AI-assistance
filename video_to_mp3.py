@@ -1,24 +1,18 @@
-import os 
 import subprocess
+from pathlib import Path
 
-files = os.listdir('videos')
-# list the all videos file by spliting it then convert the video files into mp3
+AUDIO_DIR = Path("data/audios")
+AUDIO_DIR.mkdir(parents=True, exist_ok=True)
 
-for file in files:
-    tutotial_number = file.split("[")[0].split("#")[1]
-    file_name = file.split("-")[1]
-    # print(tutotial_number,file_name)
-    # subprocess.run(["ffmpeg", "-i", f"videos/{file}",f"audios/{tutotial_number}_{file_name}.mp3"])
-
-    input_path = f"videos/{file}"
-    output_path = f"audios/{tutotial_number}_{file_name}.mp3"
+def convert_to_mp3(video_path: str) -> str:
+    video_path = Path(video_path)
+    output_path = AUDIO_DIR / f"{video_path.stem}.mp3"
 
     subprocess.run([
-        "ffmpeg",
-        "-i", input_path,        
-        "-vn",            
-        output_path
-    ])
+        "ffmpeg", "-y",
+        "-i", str(video_path),
+        "-vn",
+        str(output_path)
+    ], check=True, capture_output=True)
 
-
-
+    return str(output_path)
