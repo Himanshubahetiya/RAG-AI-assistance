@@ -1,4 +1,80 @@
-videos/
-.env
+```gitignore
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Uploaded Videos and Audio
+data/videos/
+data/audios/
+data/processed/
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.mp3
+*.wav
+
+# Transcription and Temporary Files
+*.json
+!package.json
+!*.example.json
+temp/
+tmp/
+
+# Embeddings and Vector Database
+*.joblib
+*.pkl
+*.pickle
+*.faiss
+data/embeddings/
+data/faiss/
+
+# Model Weights and Cache
+models/
+checkpoints/
+.cache/
+huggingface/
+.whisper/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Testing and Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Build and Deployment
+Dockerfile.local
+docker-compose.override.yml

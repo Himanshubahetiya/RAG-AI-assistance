@@ -1,0 +1,9 @@
+openai-whisper
+langchain
+langchain-text-splitters
+google-genai
+python-dotenv
+fastapi
+uvicorn[standard]
+python-multipart
+streamlit
