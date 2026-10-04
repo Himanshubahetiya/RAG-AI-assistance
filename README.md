@@ -299,3 +299,9 @@ Python Developer | AI/ML Engineer
 ---
 
 ⭐ If you find this project useful, consider giving it a star on GitHub.
+=======
+Step 5 = prompt generation and feed it to an LLM
+Read the joblib file and load it in the memory, then create a relevant prompt as per the user query and feed it to the LLM
+
+uvicorn app.main:app --reload
+streamlit run streamlit_app.py

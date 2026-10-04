@@ -1,9 +1,17 @@
 
 import streamlit as st
 import requests
+from pathlib import Path
 
-# ---------------- Configuration ----------------
+# ---------------- CONFIG ----------------
 API_URL = "http://127.0.0.1:8000"
+
+# streamlit_app.py is inside the app folder
+BASE_DIR = Path(__file__).resolve().parent
+VIDEO_DIR = BASE_DIR / "data" / "videos"
+VIDEO_DIR.mkdir(parents=True, exist_ok=True)
+
+ALLOWED_EXTENSIONS = [".mp4", ".mov", ".mkv", ".avi"]
 
 st.set_page_config(
     page_title="RAG Video Assistant",
@@ -11,51 +19,33 @@ st.set_page_config(
     layout="wide"
 )
 
-# ---------------- Custom Styling ----------------
-st.markdown("""
-<style>
-    .stApp {
-        background-color: #0e1117;
-        color: #ffffff;
-    }
-    .main-title {
-        font-size: 32px;
-        font-weight: 700;
-        color: #60a5fa;
-    }
-    .subtitle {
-        color: #9ca3af;
-        font-size: 16px;
-    }
-    .status {
-        background: #172554;
-        padding: 15px;
-        border-radius: 10px;
-        border: 1px solid #2563eb;
-    }
-    div.stButton > button {
-        background-color: #2563eb;
-        color: white;
-        border-radius: 8px;
-        border: none;
-    }
-</style>
-""", unsafe_allow_html=True)
+# ---------------- GET SAVED VIDEOS ----------------
+def get_videos():
+    return sorted(
+        [
+            file.name
+            for file in VIDEO_DIR.iterdir()
+            if file.is_file()
+            and file.suffix.lower() in ALLOWED_EXTENSIONS
+        ],
+        key=str.lower
+    )
 
-# ---------------- Session State ----------------
+# ---------------- SESSION STATE ----------------
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-if "uploaded_videos" not in st.session_state:
-    st.session_state.uploaded_videos = []
+# Scan the folder every time the app runs
+videos = get_videos()
 
-# ---------------- Sidebar ----------------
+# ---------------- SIDEBAR ----------------
 with st.sidebar:
-    st.title("🎥 RAG Assistant")
-    st.caption("AI-powered video question answering")
+    st.title("🎥 RAG Video Assistant")
+    st.caption("Upload videos and ask questions about their content.")
 
     st.divider()
 
+    # ---------------- UPLOAD VIDEO ----------------
     st.subheader("📤 Upload Video")
 
     uploaded_file = st.file_uploader(
@@ -63,12 +53,10 @@ with st.sidebar:
         type=["mp4", "mov", "mkv", "avi"]
     )
 
-    if uploaded_file:
-        st.video(uploaded_file)
-
-        if st.button("🚀 Process Video", use_container_width=True):
+    if uploaded_file is not None:
+        if st.button("Upload & Process", use_container_width=True):
             try:
-                with st.spinner("Processing video... This may take a while."):
+                with st.spinner("Uploading and processing video..."):
                     response = requests.post(
                         f"{API_URL}/upload-video",
                         files={
@@ -78,157 +66,204 @@ with st.sidebar:
                                 uploaded_file.type
                             )
                         },
-                        timeout=None
+                        timeout=3600
                     )
 
-                if response.ok:
-                    result = response.json()
-
-                    st.session_state.uploaded_videos.append({
-                        "filename": result.get("filename", uploaded_file.name),
-                        "embeddings": result.get("total_embeddings", 0)
-                    })
-
-                    st.success("Video processed successfully!")
-                    st.json(result)
+                if response.status_code == 200:
+                    st.success("Video uploaded and processed successfully!")
+                    st.rerun()
                 else:
-                    st.error(f"Upload failed: {response.text}")
+                    try:
+                        error_detail = response.json().get(
+                            "detail", response.text
+                        )
+                    except ValueError:
+                        error_detail = response.text
+
+                    st.error(f"Upload failed: {error_detail}")
 
             except requests.exceptions.ConnectionError:
-                st.error("Cannot connect to FastAPI. Please start the backend.")
-            except requests.exceptions.RequestException as e:
-                st.error(f"Request error: {e}")
+                st.error("Backend server is not running.")
+            except requests.exceptions.Timeout:
+                st.error("Processing timed out. Please check the backend.")
+            except Exception as e:
+                st.error(f"Error: {e}")
 
     st.divider()
 
+    # ---------------- PROCESSED VIDEOS ----------------
     st.subheader("📁 Processed Videos")
 
-    if st.session_state.uploaded_videos:
-        for video in st.session_state.uploaded_videos:
-            st.markdown(f"**🎬 {video['filename']}**")
-            st.caption(f"Embeddings: {video['embeddings']}")
+    if videos:
+        for index, video in enumerate(videos, start=1):
+            st.markdown(f"**{index}. 🎬 {video}**")
     else:
-        st.caption("No videos processed yet.")
+        st.caption("No videos found in the videos folder.")
 
+    st.divider()
+
+    # ---------------- CLEAR CHAT ----------------
     if st.button("🗑️ Clear Chat", use_container_width=True):
         st.session_state.messages = []
         st.rerun()
 
-# ---------------- Main UI ----------------
-st.markdown(
-    '<div class="main-title">🎬 RAG Video Assistant</div>',
-    unsafe_allow_html=True
-)
-st.markdown(
-    '<div class="subtitle">Upload videos, ask questions, and get answers '
-    'with relevant timestamps.</div>',
-    unsafe_allow_html=True
-)
+# ---------------- MAIN DASHBOARD ----------------
+st.title("🎥 RAG Video Assistant")
+st.write("Ask questions based on your uploaded videos.")
 
-st.divider()
-
-# ---------------- Dashboard ----------------
-col1, col2, col3 = st.columns(3)
+# ---------------- METRICS ----------------
+col1, col2 = st.columns(2)
 
 with col1:
-    st.metric("Videos Processed", len(st.session_state.uploaded_videos))
+    st.metric("Videos Processed", len(videos))
 
 with col2:
-    total_embeddings = sum(
-        v["embeddings"] for v in st.session_state.uploaded_videos
+    questions_asked = sum(
+        1
+        for message in st.session_state.messages
+        if message["role"] == "user"
     )
-    st.metric("Total Embeddings", total_embeddings)
-
-with col3:
-    st.metric("Questions Asked", len(st.session_state.messages) // 2)
+    st.metric("Questions Asked", questions_asked)
 
 st.divider()
 
-# ---------------- Chat History ----------------
-st.subheader("💬 Ask Your Videos")
+# ---------------- CHAT HISTORY ----------------
+st.subheader("💬 Chat")
 
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
-        if isinstance(message["content"], str):
-            st.markdown(message["content"])
-        else:
-            st.json(message["content"])
+        st.markdown(message["content"])
 
-# ---------------- Question Input ----------------
-question = st.chat_input("Ask anything about your uploaded videos...")
+        if message["role"] == "assistant" and message.get("sources"):
+            with st.expander("📌 Sources"):
+                for source in message["sources"]:
+                    video_number = source.get("video_number", "")
+                    video_id = source.get("video_id", "")
+                    start = source.get("start", 0)
+                    end = source.get("end", 0)
+                    source_text = source.get("text", "")
+
+                    video_label = (
+                        f"Video {video_number}"
+                        if video_number
+                        else video_id or "Video"
+                    )
+
+                    st.markdown(
+                        f"**{video_label}** ({start}s - {end}s)"
+                    )
+
+                    if source_text:
+                        st.caption(source_text)
+
+# ---------------- ASK QUESTION ----------------
+question = st.chat_input("Ask a question about your videos...")
 
 if question:
-    st.session_state.messages.append({
-        "role": "user",
-        "content": question
-    })
+    if not videos:
+        st.warning("Please upload and process a video first.")
+    else:
+        st.session_state.messages.append({
+            "role": "user",
+            "content": question
+        })
 
-    with st.chat_message("user"):
-        st.markdown(question)
+        with st.chat_message("user"):
+            st.markdown(question)
 
-    with st.chat_message("assistant"):
-        try:
-            with st.spinner("Searching video context..."):
-                response = requests.post(
-                    f"{API_URL}/ask",
-                    json={"question": question},
-                    timeout=180
-                )
+        with st.chat_message("assistant"):
+            try:
+                with st.spinner("Finding the answer..."):
+                    response = requests.post(
+                        f"{API_URL}/ask",
+                        json={"question": question},
+                        timeout=300
+                    )
 
-            if response.ok:
-                result = response.json()
+                if response.status_code == 200:
+                    result = response.json()
 
-                # Display answer
-                answer = result.get("answer", result)
+                    answer = result.get(
+                        "answer",
+                        "No answer was returned by the backend."
+                    )
+                    sources = result.get("sources", [])
 
-                if isinstance(answer, str):
                     st.markdown(answer)
+
+                    if sources:
+                        with st.expander("📌 Sources"):
+                            for source in sources:
+                                video_number = source.get("video_number", "")
+                                video_id = source.get("video_id", "")
+                                start = source.get("start", 0)
+                                end = source.get("end", 0)
+                                source_text = source.get("text", "")
+
+                                video_label = (
+                                    f"Video {video_number}"
+                                    if video_number
+                                    else video_id or "Video"
+                                )
+
+                                st.markdown(
+                                    f"**{video_label}** ({start}s - {end}s)"
+                                )
+
+                                if source_text:
+                                    st.caption(source_text)
+
+                    st.session_state.messages.append({
+                        "role": "assistant",
+                        "content": answer,
+                        "sources": sources
+                    })
+
                 else:
-                    st.json(answer)
+                    try:
+                        error_detail = response.json().get(
+                            "detail", response.text
+                        )
+                    except ValueError:
+                        error_detail = response.text
 
-                # Display sources and timestamps, if available
-                sources = result.get("sources", [])
+                    error_message = f"Request failed: {error_detail}"
+                    st.error(error_message)
 
-                if sources:
-                    with st.expander("📌 Sources & Timestamps"):
-                        for i, source in enumerate(sources, 1):
-                            st.markdown(f"**Source {i}**")
-                            st.write(
-                                f"Video: {source.get('video_number', 'N/A')}"
-                            )
-                            st.write(
-                                f"Timestamp: {source.get('start', 'N/A')}s - "
-                                f"{source.get('end', 'N/A')}s"
-                            )
-                            if source.get("text"):
-                                st.write(source["text"])
-                            st.divider()
+                    st.session_state.messages.append({
+                        "role": "assistant",
+                        "content": error_message,
+                        "sources": []
+                    })
+
+            except requests.exceptions.ConnectionError:
+                error_message = "Backend server is not running."
+                st.error(error_message)
 
                 st.session_state.messages.append({
                     "role": "assistant",
-                    "content": answer if isinstance(answer, str) else result
+                    "content": error_message,
+                    "sources": []
                 })
 
-            else:
-                error = f"API Error ({response.status_code}): {response.text}"
-                st.error(error)
+            except requests.exceptions.Timeout:
+                error_message = "The request timed out. Please try again."
+                st.error(error_message)
+
                 st.session_state.messages.append({
                     "role": "assistant",
-                    "content": error
+                    "content": error_message,
+                    "sources": []
                 })
 
-        except requests.exceptions.ConnectionError:
-            error = "Cannot connect to FastAPI. Please check the backend."
-            st.error(error)
-            st.session_state.messages.append({
-                "role": "assistant",
-                "content": error
-            })
+            except Exception as e:
+                error_message = f"Error: {e}"
+                st.error(error_message)
 
-        except requests.exceptions.RequestException as e:
-            error = f"Request failed: {e}"
-            st.error(error)
-            st.session_state.messages.append({
-                "role": "assistant",
-                "content": error
-            })
+                st.session_state.messages.append({
+                    "role": "assistant",
+                    "content": error_message,
+                    "sources": []
+                })
+
+        st.rerun()

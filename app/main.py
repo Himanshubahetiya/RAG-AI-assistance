@@ -13,7 +13,8 @@ app = FastAPI()
 class QuestionRequest(BaseModel):
     question: str = Field(min_length=1)
 
-UPLOAD_DIR = Path("data/videos")
+BASE_DIR = Path(__file__).resolve().parent
+UPLOAD_DIR = BASE_DIR / "data" / "videos"
 UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
 
 
